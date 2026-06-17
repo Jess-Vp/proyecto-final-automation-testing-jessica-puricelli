@@ -164,6 +164,10 @@ El reporte HTML se genera automáticamente en `reports/report.html`.
 - Obtener usuario y validar tiempo de respuesta
 
 ### BDD (Behave)
-- Login exitoso
-- Login con credenciales inválidas
-- Login con campos vacíos
+- Login exitoso con credenciales válidas
+- Login inválido con contraseña incorrecta
+- Scenario Outline con múltiples combinaciones:
+  - Contraseña incorrecta
+  - Usuario incorrecto
+  - Usuario vacío
+  - Contraseña vacía
