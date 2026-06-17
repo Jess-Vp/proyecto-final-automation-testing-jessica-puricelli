@@ -1,5 +1,7 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 
 class InventoryPage:
@@ -12,6 +14,7 @@ class InventoryPage:
         self.contador_carrito = (By.CLASS_NAME, "shopping_cart_badge")
         self.link_carrito = (By.CLASS_NAME, "shopping_cart_link")
         self.nombres_productos = (By.CLASS_NAME, "inventory_item_name")
+        self.logout_link = (By.ID, "logout_sidebar_link")
 
     def obtener_titulo(self) -> str:
         return self.driver.title
@@ -40,6 +43,11 @@ class InventoryPage:
 
     def ir_al_carrito(self):
         self.driver.find_element(*self.link_carrito).click()
+
+    def logout(self):
+        self.driver.find_element(*self.menu_button).click()
+        WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable(self.logout_link))
+        self.driver.find_element(*self.logout_link).click()
 
     def agregar_producto_por_nombre(self, nombre_producto: str):
         productos = self.driver.find_elements(*self.inventory_items)

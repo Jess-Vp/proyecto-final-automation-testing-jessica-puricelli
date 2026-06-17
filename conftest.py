@@ -1,7 +1,9 @@
 import pytest
 import os
+import base64
 from datetime import datetime
 from selenium import webdriver
+from pytest_html import extras
 from page.login_page import LoginPage
 from utils.data_reader import read_users_csv
 from utils.logger import get_logger
@@ -48,3 +50,8 @@ def pytest_runtest_makereport(item, call):
             screenshot_name = f"screenshots/FAIL_{test_name}_{timestamp}.png"
             driver.save_screenshot(screenshot_name)
             logger.warning(f"Test fallido — Screenshot guardado: {screenshot_name}")
+            with open(screenshot_name, "rb") as f:
+                img_base64 = base64.b64encode(f.read()).decode("utf-8")
+            if not hasattr(report, "extras"):
+                report.extras = []
+            report.extras.append(extras.image(img_base64, mime_type="image/png"))

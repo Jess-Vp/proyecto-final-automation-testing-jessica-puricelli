@@ -47,3 +47,11 @@ def test_opciones_filtro(driver_logged):
     inventory_page = InventoryPage(driver_logged)
     expected = ["Name (A to Z)", "Name (Z to A)", "Price (low to high)", "Price (high to low)"]
     assert inventory_page.obtener_opciones_filtro() == expected, "Las opciones del filtro no son correctas."
+
+
+@pytest.mark.smoke
+@pytest.mark.ui
+def test_logout(driver_logged):
+    inventory_page = InventoryPage(driver_logged)
+    inventory_page.logout()
+    assert driver_logged.current_url == "https://www.saucedemo.com/"
