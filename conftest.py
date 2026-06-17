@@ -3,6 +3,8 @@ import os
 import base64
 from datetime import datetime
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 from pytest_html import extras
 from page.login_page import LoginPage
 from utils.data_reader import read_users_csv
@@ -23,7 +25,11 @@ def driver():
     logger.info("Iniciando WebDriver (Chrome - incógnito)")
     options = webdriver.ChromeOptions()
     options.add_argument("--incognito")
-    driver = webdriver.Chrome(options=options)
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    if os.getenv("CI"):
+        options.add_argument("--headless")
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     yield driver
     logger.info("Cerrando WebDriver")
     driver.quit()
