@@ -1,0 +1,140 @@
+2026-06-10 21:31:30 | INFO     | conftest | Carpetas de salida verificadas/creadas: reports/, screenshots/, logs/
+2026-06-10 21:31:30 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:31:34 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:31:34 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:31:37 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:31:37 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:31:39 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:38:09 | INFO     | conftest | Carpetas de salida verificadas/creadas: reports/, screenshots/, logs/
+2026-06-10 21:38:09 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:38:12 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 21:38:13 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:38:13 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:38:15 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 21:38:16 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:38:16 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:38:18 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 21:38:19 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:39:30 | INFO     | conftest | Carpetas de salida verificadas/creadas: reports/, screenshots/, logs/
+2026-06-10 21:39:30 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:39:33 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 21:39:34 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:48:32 | INFO     | conftest | Carpetas de salida verificadas/creadas: reports/, screenshots/, logs/
+2026-06-10 21:48:33 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:48:35 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 21:48:36 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:48:37 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:48:38 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 21:48:39 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:48:39 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:48:41 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 21:48:42 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:48:42 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:48:43 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 21:48:44 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:48:44 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:48:46 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 21:48:47 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:48:47 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:48:49 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 21:48:50 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:48:50 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:48:51 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 21:48:52 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:48:53 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:48:54 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 21:48:55 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:48:55 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:48:57 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:48:57 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:49:00 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:49:00 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:49:02 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:54:18 | INFO     | conftest | Carpetas de salida verificadas/creadas: reports/, screenshots/, logs/
+2026-06-10 21:54:55 | INFO     | conftest | Carpetas de salida verificadas/creadas: reports/, screenshots/, logs/
+2026-06-10 21:54:55 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:54:58 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 21:55:01 | WARNING  | conftest | Test fallido — Screenshot guardado: screenshots/FAIL_test_checkout_flujo_completo_20260610_215459.png
+2026-06-10 21:55:01 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:55:01 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:55:03 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 21:55:04 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:55:39 | INFO     | conftest | Carpetas de salida verificadas/creadas: reports/, screenshots/, logs/
+2026-06-10 21:55:39 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:55:41 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 21:55:42 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:55:43 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:55:44 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 21:55:45 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:56:12 | INFO     | conftest | Carpetas de salida verificadas/creadas: reports/, screenshots/, logs/
+2026-06-10 21:56:30 | INFO     | conftest | Carpetas de salida verificadas/creadas: reports/, screenshots/, logs/
+2026-06-10 21:56:32 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:56:34 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 21:56:34 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:56:35 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:56:36 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 21:56:37 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:56:37 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:56:39 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 21:56:40 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:56:40 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:56:42 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 21:56:43 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:56:43 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:56:44 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 21:56:46 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:56:46 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:56:47 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 21:56:48 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:56:48 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:56:50 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 21:56:51 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:56:51 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:56:52 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 21:56:53 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:56:53 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:56:55 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 21:56:56 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:56:56 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:56:57 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 21:56:58 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:56:58 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:57:00 | INFO     | tests.test_login | TC-01: Login exitoso
+2026-06-10 21:57:01 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:57:01 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:57:02 | INFO     | tests.test_login | TC-02: Login con password inválido
+2026-06-10 21:57:03 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:57:03 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:57:05 | INFO     | tests.test_login | TC-03: Login con usuario inválido
+2026-06-10 21:57:06 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:57:06 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:57:07 | INFO     | tests.test_login | TC-04: Login parametrizado — usuario=standard_user
+2026-06-10 21:57:08 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:57:08 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:57:10 | INFO     | tests.test_login | TC-04: Login parametrizado — usuario=usuario_incorrecto
+2026-06-10 21:57:11 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:57:11 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:57:12 | INFO     | tests.test_login | TC-04: Login parametrizado — usuario=standard_user
+2026-06-10 21:57:13 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:57:14 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:57:16 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:57:16 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:57:19 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 21:57:19 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 21:57:21 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 22:11:55 | INFO     | conftest | Carpetas de salida verificadas/creadas: reports/, screenshots/, logs/
+2026-06-10 22:11:55 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 22:11:58 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 22:11:59 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 22:11:59 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 22:12:01 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 22:12:02 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 22:12:02 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 22:12:03 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 22:12:04 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 22:12:04 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 22:12:06 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 22:12:07 | INFO     | conftest | Cerrando WebDriver
+2026-06-10 22:12:07 | INFO     | conftest | Iniciando WebDriver (Chrome - incógnito)
+2026-06-10 22:12:08 | INFO     | conftest | Ejecutando login con usuario: standard_user
+2026-06-10 22:12:09 | INFO     | conftest | Cerrando WebDriver
