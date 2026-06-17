@@ -7,6 +7,8 @@ from page.cart_page import CartPage
 from utils.data_reader import read_products_json
 
 
+@pytest.mark.regression
+@pytest.mark.ui
 def test_cart_json(driver_logged):
     inventory_page = InventoryPage(driver_logged)
     cart_page = CartPage(driver_logged)

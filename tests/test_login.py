@@ -6,6 +6,8 @@ from utils.logger import get_logger
 logger = get_logger(__name__)
 
 
+@pytest.mark.smoke
+@pytest.mark.ui
 def test_login_exitoso(driver):
     logger.info("TC-01: Login exitoso")
     login_page = LoginPage(driver)
@@ -13,6 +15,8 @@ def test_login_exitoso(driver):
     assert "/inventory.html" in driver.current_url
 
 
+@pytest.mark.regression
+@pytest.mark.ui
 def test_login_password_invalido(driver):
     logger.info("TC-02: Login con password inválido")
     login_page = LoginPage(driver)
@@ -20,6 +24,8 @@ def test_login_password_invalido(driver):
     assert "Epic sadface" in login_page.get_error_message()
 
 
+@pytest.mark.regression
+@pytest.mark.ui
 def test_login_usuario_invalido(driver):
     logger.info("TC-03: Login con usuario inválido")
     login_page = LoginPage(driver)
@@ -27,6 +33,8 @@ def test_login_usuario_invalido(driver):
     assert "Epic sadface" in login_page.get_error_message()
 
 
+@pytest.mark.regression
+@pytest.mark.ui
 @pytest.mark.parametrize("user", read_users_csv())
 def test_login_parametrizado(driver, user):
     logger.info(f"TC-04: Login parametrizado — usuario={user['username']}")

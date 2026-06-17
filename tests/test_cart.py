@@ -1,3 +1,4 @@
+import pytest
 from page.inventory_page import InventoryPage
 from page.cart_page import CartPage
 from utils.data_reader import read_products_json
@@ -6,12 +7,16 @@ from utils.logger import get_logger
 logger = get_logger(__name__)
 
 
+@pytest.mark.smoke
+@pytest.mark.ui
 def test_agregar_producto_al_carrito(driver_logged):
     inventory_page = InventoryPage(driver_logged)
     inventory_page.agregar_primer_producto_al_carrito()
     assert inventory_page.obtener_contador_carrito() == "1"
 
 
+@pytest.mark.regression
+@pytest.mark.ui
 def test_producto_en_carrito_coincide(driver_logged):
     inventory_page = InventoryPage(driver_logged)
     inventory_page.agregar_primer_producto_al_carrito()
@@ -23,6 +28,8 @@ def test_producto_en_carrito_coincide(driver_logged):
     assert productos[0]["nombre"] == nombre_inventario
 
 
+@pytest.mark.regression
+@pytest.mark.ui
 def test_carrito_con_datos_json(driver_logged):
     productos_json = read_products_json()
     inventory_page = InventoryPage(driver_logged)

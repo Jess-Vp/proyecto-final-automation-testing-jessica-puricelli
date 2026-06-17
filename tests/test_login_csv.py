@@ -3,6 +3,8 @@ from utils.data_reader import read_users_csv
 
 import pytest
 
+@pytest.mark.regression
+@pytest.mark.ui
 @pytest.mark.parametrize("user", read_users_csv())
 def test_login_csv(driver, user):
     login_page = LoginPage(driver)
