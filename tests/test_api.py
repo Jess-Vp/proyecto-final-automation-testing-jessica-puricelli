@@ -59,7 +59,7 @@ def test_create_user():
     response = requests.post("https://reqres.in/api/users", headers=headers, json=body)
     data = response.json()
 
-    check.equal(response.status_code, 201)
+    assert response.status_code == 201
     check.is_true(body["email"].count("@") == 1)
     check.is_in("*", body["password"])
     check.equal(data["name"], body["name"])
