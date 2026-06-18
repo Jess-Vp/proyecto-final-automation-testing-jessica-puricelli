@@ -40,6 +40,9 @@ El propósito es aplicar los conocimientos adquiridos durante el curso, enfocán
 
 ```text
 proyecto-final-automation-testing-jessica-puricelli/
+├── .github/
+│   └── workflows/
+│       └── tests.yml
 ├── data/
 │   ├── users.csv
 │   └── products.json
