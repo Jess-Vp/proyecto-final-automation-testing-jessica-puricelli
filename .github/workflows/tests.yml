@@ -11,10 +11,10 @@ jobs:
 
     steps:
       - name: Descargar repositorio
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
 
       - name: Configurar python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v5.4.0
         with:
           python-version: "3.12"
 
@@ -24,13 +24,13 @@ jobs:
           pip install -r requirements.txt
 
       - name: Configurar Chrome
-        uses: browser-actions/setup-chrome@v1
+        uses: browser-actions/setup-chrome@v2
 
       - name: Ejecutar pruebas
         run: pytest
 
       - name: Guardar reporte como artefacto
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v4.6.2
         with:
           name: reporte-pytest-html
           path: reports/report.html
