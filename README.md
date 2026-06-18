@@ -30,7 +30,9 @@ El propósito es aplicar los conocimientos adquiridos durante el curso, enfocán
 - Requests
 - Behave (BDD)
 - pytest-html
+- webdriver-manager
 - Git & GitHub
+- GitHub Actions (CI/CD)
 
 ---
 
@@ -131,6 +133,13 @@ El reporte HTML se genera automáticamente en `reports/report.html`.
 
 ---
 
+## ⚙️ CI/CD
+
+El proyecto cuenta con integración continua mediante GitHub Actions.
+Ante cada push a `master` se ejecutan automáticamente todos los tests y el reporte HTML queda disponible como artefacto descargable desde la pestaña **Actions** del repositorio.
+
+---
+
 ## 🧪 Casos de Prueba Implementados
 
 ### Login
@@ -145,6 +154,7 @@ El reporte HTML se genera automáticamente en `reports/report.html`.
 - Validación de nombre y precio del primer producto
 - Verificación de elementos de UI (menú y filtro)
 - Validación de opciones del filtro (Name A-Z, Z-A, Price low-high, high-low)
+- Logout y validación de redirección a la página de login
 
 ### Carrito
 - Agregar producto al carrito y validar contador
@@ -162,6 +172,7 @@ El reporte HTML se genera automáticamente en `reports/report.html`.
 - Crear usuario
 - Eliminar usuario
 - Obtener usuario y validar tiempo de respuesta
+- Encadenamiento: crear usuario (POST) y obtener por ID (GET)
 
 ### BDD (Behave)
 - Login exitoso con credenciales válidas
