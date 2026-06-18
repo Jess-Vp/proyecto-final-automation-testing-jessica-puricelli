@@ -133,6 +133,23 @@ El reporte HTML se genera automáticamente en `reports/report.html`.
 
 ---
 
+## 📊 Interpretación de Reportes
+
+### Reporte HTML
+Al ejecutar los tests se genera automáticamente `reports/report.html`.
+Al abrirlo en el navegador vas a ver:
+- **Passed / Failed / Error**: estado de cada test
+- **Duración**: tiempo de ejecución por test
+- **Screenshots**: ante tests fallidos, la captura de pantalla queda embebida directamente en el reporte
+
+### Logs
+En la carpeta `logs/` se genera un archivo `test_run_YYYYMMDD.log` con el detalle completo de la ejecución (nivel DEBUG), útil para depuración.
+
+### GitHub Actions
+Desde la pestaña **Actions** del repositorio podés descargar el reporte HTML como artefacto de cada ejecución en el pipeline de CI.
+
+---
+
 ## ⚙️ CI/CD
 
 El proyecto cuenta con integración continua mediante GitHub Actions.
